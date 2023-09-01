@@ -11,13 +11,27 @@
         android:id="@+id/btReiniciar"
         android:layout_width="202dp"
         android:layout_height="78dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="56dp"
         android:backgroundTint="#5E000000"
         android:fontFamily="@font/anton"
         android:text="Reiniciar"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
         app:strokeColor="#F3EFEF"
-        app:strokeWidth="2dp"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="580dp" />
+        app:strokeWidth="2dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="363dp"
+        android:layout_height="489dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
