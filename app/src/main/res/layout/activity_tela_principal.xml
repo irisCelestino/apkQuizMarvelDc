@@ -36,7 +36,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/btJogar"
+        android:id="@+id/btnJogar"
         android:layout_width="202dp"
         android:layout_height="78dp"
         android:layout_marginStart="104dp"
@@ -48,22 +48,34 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edNome"
+        app:layout_constraintTop_toBottomOf="@+id/inputNomePlayer"
         app:layout_constraintVertical_bias="0.0"
         app:strokeColor="#F3EFEF"
         app:strokeWidth="2dp" />
 
     <EditText
-        android:id="@+id/edNome"
+        android:id="@+id/inputNomePlayer"
         android:layout_width="252dp"
         android:layout_height="45dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:fontFamily="@font/anton"
         android:inputType="text"
-        android:text="Nome :"
+        android:shadowColor="#F8F5F5"
         android:textColor="#DCEFE9E9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/anton"
+        android:text="Digite seu nome :  "
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 

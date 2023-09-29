@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/planodefundo"
-    tools:context=".layoutQuestoes">
+    tools:context=".FimTela">
 
     <Button
         android:id="@+id/btReiniciar"
@@ -41,5 +41,39 @@
         app:srcCompat="@drawable/flash"
         tools:layout_editor_absoluteX="131dp"
         tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/txtParabens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/anton"
+        android:text="PARABÉNS"
+        android:textColor="#0C0C0C"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/txtTotalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/anton"
+        android:text="00%"
+        android:textColor="#0C0C0C"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/txtParabens" />
+
+    <TextView
+        android:id="@+id/txtFrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="498dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
