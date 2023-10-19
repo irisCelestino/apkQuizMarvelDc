@@ -23,7 +23,7 @@ public class FimTela extends AppCompatActivity {
         setContentView(R.layout.activity_layout_encerramento);
         btnReiniciar = (Button) findViewById(R.id.btReiniciar);
         scorePercentual = (TextView) findViewById(R.id.txtTotalScore);
-        fraseMotivacional = (TextView) findViewById(R.id.txtFrase);
+
         fraseParabens = (TextView) findViewById(R.id.txtParabens);
 
         String nome =  getIntent().getStringExtra("ChavePercentual") + "%";
